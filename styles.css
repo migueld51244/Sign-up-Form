@@ -84,7 +84,6 @@ body {
   box-shadow: 0 10px 8px gray;
 }
 
-
 .data-head {
   font-weight: 900;
   font-size: 24px;
@@ -93,13 +92,13 @@ body {
 .submit-btn {
   padding: 5px 30px;
   color: white;
-  background-color: #596D48;
+  background-color: #596d48;
   border: none;
   border-radius: 10px;
 }
 
 input {
-  border-color: #E5E7EB;
+  border-color: #e5e7eb;
 }
 
 input:user-invalid {
