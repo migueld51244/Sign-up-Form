@@ -80,8 +80,8 @@ body {
 
 .data-main {
   background-color: white;
-  border: 1px solid gray;
-  box-shadow: 0 10px 8px gray;
+  border: none;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 
 .data-head {
@@ -95,6 +95,7 @@ body {
   background-color: #596d48;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 input {
