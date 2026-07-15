@@ -1,68 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Sign-Up Form</title>
-</head>
-<body>
-  <main class="container">
-    <div class="image-container">
-      <img class="background-img-bar" src="assets/images/background-image-sidebar.jpg" alt="Green trees beside a lake during daytime">
-      <div class="image-bar">
-        <img  class="sidebar-logo" src="assets/images/odin-lined.png" alt="The Odin Project's Logo">
-        <p class="bar-text">ODIN</p>
-      </div>
-      <p class="credit-p">Photo by <a class="credit-a" href="https://unsplash.com/@laurachouette">Laura Chouette</a> on <a class="credit-a" href="https://unsplash.com/photos/green-trees-beside-body-of-water-during-daytime-shys271cjFc">Unsplash</a></p>
-    </div>
-
-
-    <div class="data-container">
-      <div class="data-head">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-          Sign up <span class="italic">now</span> to get started.
-        </p>
-        <p>You <span class="italic">know</span> you want to.</p>
-      </div>
-      <fieldset class="data-main">
-        <h1>Let's do this!</h1>
-        <div class="data-inputs">
-          <div class="col-1">
-            <div>
-              <label for="first-name">First Name</label>
-              <input id="first-name" type="text" required >
-            </div>
-            <div>
-              <label for="email">Email</label>
-              <input id="email" type="email" required >
-            </div>
-            <div>
-              <label for="password">Password</label>
-              <input id="password" type="password" required >
-            </div>
-          </div>
-          <div class="col-2">
-            <div>
-              <label for="last-name">Last Name</label>
-              <input id="last-name" type="text" required >
-            </div>
-            <div>
-              <label for="phone-number">Phone Number</label>
-              <input id="phone-number" type="text" required >
-            </div>
-            <div>
-              <label for="confirm-password">Confirm Password</label>
-              <input id="confirm-password" type="password" required >
-            </div>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-Up Form</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="image-container">
+        <img
+          class="background-img-bar"
+          src="assets/images/background-image-sidebar.jpg"
+          alt="Green trees beside a lake during daytime"
+        />
+        <div class="image-bar">
+          <img
+            class="sidebar-logo"
+            src="assets/images/odin-lined.png"
+            alt="The Odin Project's Logo"
+          />
+          <p class="bar-text">ODIN</p>
         </div>
-      </fieldset>
-      <div class="data-footer">
-        <button type="button" class="submit-btn">Create Account</button>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <p class="credit-p">
+          Photo by
+          <a class="credit-a" href="https://unsplash.com/@laurachouette"
+            >Laura Chouette</a
+          >
+          on
+          <a
+            class="credit-a"
+            href="https://unsplash.com/photos/green-trees-beside-body-of-water-during-daytime-shys271cjFc"
+            >Unsplash</a
+          >
+        </p>
       </div>
-    </div>
-  </main>
-</body>
+
+      <div class="data-container">
+        <div class="data-head">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span class="italic">now</span> to get started.
+          </p>
+          <p>You <span class="italic">know</span> you want to.</p>
+        </div>
+        <fieldset class="data-main">
+          <h1>Let's do this!</h1>
+          <div class="data-inputs">
+            <div class="col-1">
+              <div>
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  type="text"
+                  required
+                  minlength="1"
+                  maxlength="255"
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" required maxlength="254" />
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  required
+                  minlength="8"
+                  maxlength="128"
+                />
+              </div>
+            </div>
+            <div class="col-2">
+              <div>
+                <label for="last-name">Last Name</label>
+                <input
+                  id="last-name"
+                  type="text"
+                  required
+                  minlength="1"
+                  maxlength="255"
+                />
+              </div>
+              <div>
+                <label for="phone-number">Phone Number</label>
+                <input
+                  id="phone-number"
+                  type="tel"
+                  required
+                  minlength="7"
+                  maxlength="20"
+                />
+              </div>
+              <div>
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  id="confirm-password"
+                  type="password"
+                  required
+                  minlength="8"
+                  maxlength="128"
+                />
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="data-footer">
+          <button type="button" class="submit-btn">Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
