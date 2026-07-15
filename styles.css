@@ -16,6 +16,7 @@ body {
 
 .container {
   height: 100vh;
+  display: flex;
 }
 
 .image-container {
@@ -63,4 +64,49 @@ body {
   color: white;
   font-family: "Norse Bold";
   font-size: 100px;
+}
+
+.data-container {
+  width: 63vw;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.data-inputs {
+  display: flex;
+}
+
+.data-main {
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: 0 10px 8px gray;
+}
+
+
+.data-head {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.submit-btn {
+  padding: 5px 30px;
+  color: white;
+  background-color: #596D48;
+  border: none;
+  border-radius: 10px;
+}
+
+input {
+  border-color: #E5E7EB;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 1px 1px grey;
 }
