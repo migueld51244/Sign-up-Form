@@ -76,6 +76,7 @@ body {
 /* RIGHT PANEL */
 
 .data-head {
+  height: 360px;
   font-weight: 900;
   font-size: 24px;
   background-color: whitesmoke;
@@ -95,6 +96,7 @@ body {
 /* FORM */
 
 .data-main {
+  height: 310px;
   background-color: white;
   border: none;
   box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
@@ -104,9 +106,14 @@ body {
 }
 
 .data-footer {
+  height: calc(100vh - (360px + 310px));
   background-color: whitesmoke;
   padding-left: 100px;
   padding-top: 50px;
+}
+
+.form-title {
+  margin-top: 15px;
 }
 
 .col-1 {
@@ -138,9 +145,12 @@ label {
 }
 
 input {
-  /*border: none;*/
-  border-color: #e5e7eb;
+  font-size: 16px;
+  border: 1px solid #c8ccd5;
+  border-radius: 4px;
   display: block;
+  height: 30px;
+  width: 250px;
 }
 
 /* BUTTON */
