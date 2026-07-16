@@ -153,6 +153,7 @@ input {
   display: block;
   height: 30px;
   width: 250px;
+  padding:5px;
 }
 
 /* BUTTON */
@@ -182,6 +183,7 @@ input:user-invalid {
 }
 
 input:focus {
-  border-color: blue;
-  box-shadow: 1px 1px grey;
+  outline: none;
+  border-color: rgb(108, 108, 237);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
