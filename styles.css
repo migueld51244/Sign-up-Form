@@ -82,24 +82,32 @@ body {
   background-color: white;
   border: none;
   box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .data-head {
   font-weight: 900;
   font-size: 24px;
+  background-color: whitesmoke;
+  padding: 180px 50px 50px 50px;
 }
 
 .submit-btn {
-  padding: 5px 30px;
+  padding: 15px 50px;
   color: white;
   background-color: #596d48;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 input {
+  /*border: none;*/
   border-color: #e5e7eb;
+  display: block;
 }
 
 input:user-invalid {
@@ -109,4 +117,42 @@ input:user-invalid {
 input:focus {
   border-color: blue;
   box-shadow: 1px 1px grey;
+}
+
+.data-footer {
+  background-color: whitesmoke;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #9a9faa;
+}
+
+.input-2,
+.input-3,
+.input-5,
+.input-6 {
+  margin-top: 25px;
+}
+
+.col-1 {
+  margin-right: 100px;
+}
+
+.login-p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.login {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 900;
+}
+
+.head-cta {
+  margin-top: 20px;
 }
