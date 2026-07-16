@@ -138,7 +138,8 @@ body {
 label {
   text-transform: uppercase;
   font-weight: 100;
-  color: #9a9faa;
+  color: #505764;
+  letter-spacing: 1px;
 }
 
 .input-group {
