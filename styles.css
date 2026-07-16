@@ -16,8 +16,9 @@
 /* VARIABLES */
 
 :root {
-  --data-header-height: 360px;
-  --data-form-height: 310px;
+  --form-header-height: 360px;
+  --form-height: 310px;
+  --page-theme-color: #596d48;
 }
 
 /* PAGE LAYOUT */
@@ -83,7 +84,7 @@ body {
 /* RIGHT PANEL */
 
 .data-head {
-  height: var(--data-header-height);
+  height: var(--form-header-height);
   font-weight: 900;
   font-size: 24px;
   background-color: whitesmoke;
@@ -103,7 +104,7 @@ body {
 /* FORM */
 
 .data-main {
-  height: var(--data-form-height);
+  height: var(--form-height);
   background-color: white;
   border: none;
   box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
@@ -112,7 +113,7 @@ body {
 }
 
 .data-footer {
-  height: calc(100vh - (var(--data-header-height) + var(--data-form-height)));
+  height: calc(100vh - (var(--form-header-height) + var(--form-height)));
   background-color: whitesmoke;
   padding-left: 100px;
   padding-top: 50px;
@@ -166,7 +167,7 @@ input {
 .submit-btn {
   padding: 15px 50px;
   color: white;
-  background-color: #596d48;
+  background-color: var(--page-theme-color);
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -177,7 +178,7 @@ input {
 
 .login {
   text-decoration: none;
-  color: #596d48;
+  color: var(--page-theme-color);
   font-weight: 900;
 }
 
