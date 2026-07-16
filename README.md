@@ -7,7 +7,6 @@ A modern sign-up form built as part of **The Odin Project** curriculum. The goal
 
 🔗 https://migueld51244.github.io/Sign-up-Form/
 
----
 
 ## About the Project
 
@@ -17,9 +16,8 @@ The emphasis was on creating a clean layout, organizing CSS effectively, and sty
 
 Lesson Link: [Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
-Preview: ![Project Screenshot](assets/images/screenshot.png)
+Preview: [Project Screenshot](assets/images/screenshot.png)
 
----
 
 ## Features
 
@@ -33,7 +31,6 @@ Preview: ![Project Screenshot](assets/images/screenshot.png)
 - CSS custom properties (variables)
 - Organized and maintainable stylesheet
 
----
 
 ## Technologies Used
 
@@ -43,7 +40,6 @@ Preview: ![Project Screenshot](assets/images/screenshot.png)
 - CSS Variables
 - CSS Pseudo-classes (`:focus`, `:user-invalid`)
 
----
 
 ## What I Learned
 
@@ -59,7 +55,6 @@ Working on this project helped me improve my understanding of:
 
 One of the biggest lessons was learning that writing maintainable CSS is just as important as making a page look correct.
 
----
 
 ## Credits
 
@@ -79,7 +74,6 @@ The Odin Project Logo
 
 Norse Bold
 
----
 
 ## Future Improvements
 
@@ -88,7 +82,6 @@ Norse Bold
 - Improve accessibility with additional ARIA attributes where appropriate
 - Add smooth input transition effects
 
----
 
 ## License
 
